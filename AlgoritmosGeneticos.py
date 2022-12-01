@@ -5,12 +5,10 @@ def inicializarPoblacion(n):
 	for j in range (0, n):
 		individuo = [0, 1, 0, 1, 0, 1] #Preparo plantilla base
 		for i in range (0, len(individuo)):
-			individuo[i] = random.choice([0,1]) #Hago aleatorio el individuo
+			individuo[i] = random.choice([0,1]) #Hago aleatorio el individuo. #JUGAR CON ESTO: ¿Y si hubiera más valores posibles?
 		print(individuo)
 		poblacion.append(individuo)
 	return poblacion
-
-
 
 def generarNuevoIndividuo(individuo1, individuo2):
 	#Se define el cruce:
@@ -19,7 +17,7 @@ def generarNuevoIndividuo(individuo1, individuo2):
 
 	# Mutacion posible
 	val = random.randint(1, 10 - 1)
-	if(val >= 7): #Una alta probabilidad de mutar... 0.4p
+	if(val >= 7): ##JUGAR CON ESTO. Una alta probabilidad de mutar... 0.4p
 		pos = random.randint(0, len(individuo1) - 1) #aleatoriamente cambiamos de estado en esa posición  haciendo la mutación en el individuo
 		if(nuevoIndividuo[pos] == 0):
 			nuevoIndividuo[pos] = 1
@@ -29,12 +27,13 @@ def generarNuevoIndividuo(individuo1, individuo2):
 
 def fitness(individuo): # Depende del problema...
 	return sum(individuo) #Inventamos que la suma mayor es el mejor candidato
-	
+
+
 
 
 
 mejorCandidato  = [0, 1, 0, 1, 0, 1]
-maxGeneraciones = 5
+maxGeneraciones = 5 #JUGAR CON ESTO
 gen = 0
 while  not gen > maxGeneraciones:
 
@@ -66,8 +65,4 @@ while  not gen > maxGeneraciones:
 			mejorCandidato  =  individuoNuevo
 
 	print('El mejor candidato es:', mejorCandidato)
-
-
-
-
 
