@@ -28,10 +28,6 @@ def generarNuevoIndividuo(individuo1, individuo2):
 def fitness(individuo): # Depende del problema...
 	return sum(individuo) #Inventamos que la suma mayor es el mejor candidato
 
-
-
-
-
 mejorCandidato  = [0, 1, 0, 1, 0, 1]
 maxGeneraciones = 5 #JUGAR CON ESTO
 gen = 0
