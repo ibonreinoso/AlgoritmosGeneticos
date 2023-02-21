@@ -1,3 +1,5 @@
+#programo....
+
 import random
 
 def inicializarPoblacion(n):
