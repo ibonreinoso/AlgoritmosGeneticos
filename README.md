@@ -1,3 +1,5 @@
+![bigbaydata](https://www.bigbaydata.com/wp-content/uploads/2023/10/bigbaydata.webp)
+
 # AlgoritmosGeneticos
 Breve introducción a los Algoritmos Genéticos en Castellano (Python). Uno de los algoritmos típicos en el mundo de la [Inteligencia Artificial](https://www.bigbaydata.com/inteligencia-artificial/).  
 
@@ -17,10 +19,6 @@ En el siguiente cuaderno se elaboran los siguientes aspectos:
 3. La función de evaluación del mejor candidato por generación
 4. La iteración y bucle, eje central de la exploración para localizar configuraciones subóptimas 
 
-Este proyecto se desarrolló junto al equipo de Big Data Tenerife con mucho cariño el 01 de diciembre de 2022. 
-
-### Data is the new Bacon_ ❤️💻
-#### [Ibon Reinoso Isasi](https://ibonreinoso.com/), Director del Programa Nacional Big Data para Red.es (TheValley y Barrabés) 
-#### Fundador de [BigBayData.com](https://www.bigbaydata.com/)
-
-**Uso libre de contenido siempre que sea mencionado el autor.**
+ 
+## Sesiones privadas One to One
+> https://www.bigbaydata.com/contacto/
