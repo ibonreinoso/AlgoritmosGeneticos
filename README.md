@@ -21,4 +21,5 @@ En el siguiente cuaderno se elaboran los siguientes aspectos:
 
  
 ## Sesiones privadas One to One
+¿Quieres profundizar más conmigo y tener tu propio profesor particular? 🧑‍🏫
 > https://www.bigbaydata.com/contacto/
